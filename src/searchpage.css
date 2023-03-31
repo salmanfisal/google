@@ -1,8 +1,8 @@
+
 .searchPage_header{
     display: flex;
-    position: sticky;
+    position: relative;
     top:0;
-    background-color: white;
     z-index:100;
     align-items: flex-start;
     padding-top: 30px;
@@ -83,7 +83,7 @@ margin-left:-150px;
 }
 .searchPage_resultTitle{
     text-decoration: none;
-    color:darkslategray;
+    color:rgb(181, 181, 197);
     font-weight: bold;
 }
 .searchPage_resultTitle :hover{

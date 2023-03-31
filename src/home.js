@@ -20,8 +20,19 @@ const Home = () => {
         </div>
       </div>
       <div className="home_body">
-        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
-        alt="google" />
+        {/* <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        alt="google" /> */}
+
+        <div className="title">
+          <h1>
+            <div>
+              <span>the</span>
+              search Engine
+              <span>by</span>
+            </div>
+            <div>SALMAN FISAL</div>
+          </h1>
+        </div>
       </div>
       <div className="home_inputcontainer">
         <Search hideButtons />

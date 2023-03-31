@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   margin: 0 auto;
-  width: 75vw;
+  width: 85vw;
   margin-top: 40px;
   max-width: 560px;
   border: 1px solid black;
@@ -11,13 +11,20 @@
 }
 .search_input > input {
   border: none;
+  background: none;
   display: flex;
   flex: 1;
   padding:7px 20px;
   font-size: medium;
+
 }
 .search_input >input:focus{
 outline-width: 0;
+}
+.search_input :hover{
+  background-color: rgb(116, 129, 124);
+  border-radius: 999px;
+  padding-top:10px;
 }
 .search_inputIcon{
 color:gray;

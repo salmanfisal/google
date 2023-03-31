@@ -2,7 +2,8 @@ body{
     right:0;
     left:0;
     margin:0;
-    padding:0
+    padding:0;
+    background-color: rgb(68, 63, 63);
 }
 header{
     right:0;
